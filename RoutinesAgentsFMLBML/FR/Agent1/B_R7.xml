@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<fml-apml>
+  <bml>
+    <speech id="s1" language="french" start="0.0" text="" type="SAPI4" voice="marytts">
+      <description level="1" type="gretabml">
+        <reference>tmp/from-fml-apml.pho</reference>
+      </description>
+      <tm id="tm1"/>Je
+      <tm id="tm2"/>vois
+      <tm id="tm3"/>que
+      <tm id="tm4"/>vous
+      <tm id="tm5"/>avez
+      <tm id="tm6"/>choisi
+      <tm id="tm7"/>ces
+      <tm id="tm8"/>figues
+      <tm id="tm9"/>qui
+      <tm id="tm10"/>sont
+      <tm id="tm11"/>produiteq
+      <tm id="tm12"/>en
+      <tm id="tm13"/>France.
+      <tm id="tm14"/>Leur prix
+      <tm id="tm15"/>est
+      <tm id="tm16"/>4
+      <tm id="tm17"/>euro
+      <tm id="tm18"/>30
+      <tm id="tm19"/>le
+      <tm id="tm20"/>kilo.
+      <tm id="tm21"/>Combien
+      <tm id="tm22"/>en
+      <tm id="tm23"/>voulez
+      <tm id="tm24"/>vous
+      <tm id="tm25"/>.
+      <tm id="tm26"/>?
+
+    </speech>
+  </bml>
+  <fml>
+    <deictic end="s1:tm20" id="1" importance ="1.0" start="s1:tm7" type="onmyright_bis"/>
+    <emotion end="s1:tm26" id="2 importance=1.0" start="s1:tm21" type="joyStrong"/>
+    <perfomative end="s1:tm26" id="3"  start="s1:tm23" type="restpose_handsMiddleDown_Pos_B"/>
+  </fml>
+</fml-apml>

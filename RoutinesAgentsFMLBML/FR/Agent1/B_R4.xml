@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<fml-apml>
+  <bml>
+    <speech id="s1" language="french" start="0.0" text="" type="SAPI4" voice="marytts">
+      <description level="1" type="gretabml">
+        <reference>tmp/from-fml-apml.pho</reference>
+      </description>
+      <tm id="tm1"/>Vous
+      <tm id="tm2"/>avez
+      <tm id="tm3"/>choisi
+      <tm id="tm4"/>nos
+      <tm id="tm5"/>potirons.
+      <tm id="tm6"/>Ils
+      <tm id="tm7"/>sont
+      <tm id="tm8"/>bio
+      <tm id="tm9"/>et
+      <tm id="tm10"/>à
+      <tm id="tm11"/>82
+      <tm id="tm12"/>centimes
+      <tm id="tm13"/>le
+      <tm id="tm14"/>kilo.
+      <tm id="tm15"/>Combien
+      <tm id="tm16"/>en
+      <tm id="tm17"/>voulez
+      <tm id="tm18"/>vous
+      <tm id="tm19"/>.
+      <tm id="tm20"/>?
+
+    </speech>
+  </bml>
+  <fml>
+    <deictic end="s1:tm14" id="1" importance ="1.0" start="s1:tm4" type="onmy_down_right_bis"/>
+    <performative end="s1:tm20" id="3"  start="s1:tm18" type="restpose_handsMiddleDown_Pos_B"/>
+    <deictic end="s1:tm3" id="3" importance="1.0" start="s1:tm1" type="You_Pos_L_1"/>
+  </fml>
+</fml-apml>

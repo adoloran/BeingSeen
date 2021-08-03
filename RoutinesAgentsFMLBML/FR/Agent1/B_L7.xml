@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<fml-apml>
+  <bml>
+    <speech id="s1" language="french" start="0.0" text="" type="SAPI4" voice="marytts">
+      <description level="1" type="gretabml">
+        <reference>tmp/from-fml-apml.pho</reference>
+      </description>
+      <tm id="tm1"/>Je
+      <tm id="tm2"/>vois
+      <tm id="tm3"/>que
+      <tm id="tm4"/>vous
+      <tm id="tm5"/>avez
+      <tm id="tm6"/>choisi
+      <tm id="tm7"/>ces
+      <tm id="tm8"/>céléris
+      <tm id="tm9"/>français.
+      <tm id="tm10"/>Ils ne
+      <tm id="tm11"/>sont pas
+      <tm id="tm12"/>cher
+      <tm id="tm13"/>du
+      <tm id="tm14"/>tout.
+      <tm id="tm15"/>C'est
+      <tm id="tm16"/>très
+      <tm id="tm17"/>bon
+      <tm id="tm18"/>cuit à
+      <tm id="tm19"/>la vapeur
+      <tm id="tm20"/>et
+      <tm id="tm21"/>assaisonné.
+      <tm id="tm22"/>Combien
+      <tm id="tm23"/>en
+      <tm id="tm24"/>voulez
+      <tm id="tm25"/>vous
+      <tm id="tm26"/>
+      <tm id="tm27"/>?
+      
+    </speech>
+  </bml>
+  <fml>
+    <deictic end="s1:tm14" id="1" importance ="1.0" start="s1:tm7" type="onmy_down_left"/>
+    <emotion end="s1:tm23" id="2 importance=1.0" start="s1:tm15" type="joyStrong"/>
+    <performative end="s1:tm27" id="3"  start="s1:tm24" type="restpose_handsMiddleDown_Pos_B"/>
+  </fml>
+</fml-apml>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<fml-apml>
+  <bml>
+    <speech id="s1" language="french" start="0.0" text="" type="SAPI4" voice="marytts">
+      <description level="1" type="gretabml">
+        <reference>tmp/from-fml-apml.pho</reference>
+      </description>
+      <tm id="tm1"/>Vous
+      <tm id="tm2"/>avez
+      <tm id="tm3"/>choisi
+      <tm id="tm4"/>nos
+      <tm id="tm5"/>poivrons
+      <tm id="tm6"/>oranges
+      <tm id="tm7"/>frais.
+      <tm id="tm8"/>Ils
+      <tm id="tm9"/>proviennent
+      <tm id="tm10"/>d'
+      <tm id="tm11"/>Espagne.
+      <tm id="tm12"/>Combien
+      <tm id="tm13"/>dois
+      <tm id="tm14"/>je
+      <tm id="tm15"/>vous
+      <tm id="tm16"/>en 
+      <tm id="tm17"/>mettre
+      <tm id="tm18"/>
+      <tm id="tm19"/>?
+
+    </speech>
+  </bml>
+  <fml>
+    <deictic end="s1:tm3" id="1" importance="1.0" start="s1:tm1" type="You_Pos_L_1"/>
+    <performative end="s1:tm11" id="1" importance ="1.0" start="s1:tm4" type="onmy_down_left_bis"/>
+    <performative end="s1:tm19" id="3"  start="s1:tm15" type="restpose_neutral"/>
+  </fml>
+</fml-apml>

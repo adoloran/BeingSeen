@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<fml-apml>
+  <bml>
+    <speech id="s1" language="french" start="0.0" text="" type="SAPI4" voice="marytts">
+      <description level="1" type="gretabml">
+        <reference>tmp/from-fml-apml.pho</reference>
+      </description>
+      
+      <tm id="tm1"/>
+      Bonjour,
+      <tm id="tm2"/>
+      je
+      <tm id="tm3"/>
+      suis
+      <tm id="tm4"/>
+      Emma.
+      <tm id="tm5"/>
+      Ceci
+      <tm id="tm6"/>
+      est
+      <tm id="tm7"/>
+      mon
+      <tm id="tm8"/>
+      stand
+      <tm id="tm9"/>
+      de
+      <tm id="tm10"/>
+      fruits
+      <tm id="tm11"/>
+      et légumes.
+      <tm id="tm12"/>
+      Je
+      <tm id="tm13"/>
+      vous
+      <tm id="tm14"/>
+      laisse
+      <tm id="tm15"/>
+      choisir
+      <tm id="tm16"/>
+      le
+      <tm id="tm17"/>
+      produit
+      <tm id="tm18"/>
+      de
+      <tm id="tm19"/>
+      votre
+      <tm id="tm20"/>
+      choix.
+      <tm id="tm21"/>
+      Pendant
+      <tm id="tm22"/>
+      ce
+      <tm id="tm23"/>
+      temps,
+      <tm id="tm24"/>
+      je
+      <tm id="tm25"/>
+      vais
+      <tm id="tm26"/>
+      trier
+      <tm id="tm27"/>
+      mes
+      <tm id="tm28"/>
+      tickets.
+      
+    </speech>
+  </bml>
+  <fml>
+    <performative start="s1:tm1" id="1" importance="1.0" end="s1:tm3" type="greet"/>
+    <deictic end="s1:tm7" id="2" importance="1.0" start="s1:tm4" type="me"/>
+    <performative start="s1:tm8" id="3" importance="1.0" end="s1:tm14" type="suggest"/>
+    <deictic end="s1:tm21" id="4" importance="1.0" start="s1:tm15" type="you"/>
+    <deictic end="s1:tm27" id="5" importance="1.0" start="s1:tm22" type="me"/>
+    <performative end="s1:tm28+4" id="6" importance="1.0" start="s1:tm28" type="restpose_neutral"/>
+  </fml>
+</fml-apml>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<fml-apml>
+  <bml>
+    <speech id="s1" language="french" start="0.0" text="" type="SAPI4" voice="marytts">
+      <description level="1" type="gretabml">
+        <reference>tmp/from-fml-apml.pho</reference>
+      </description>
+      <tm id="tm1"/>Je
+      <tm id="tm2"/>vois
+      <tm id="tm3"/>que
+      <tm id="tm4"/>vous
+      <tm id="tm5"/>avez
+      <tm id="tm6"/>choisis
+      <tm id="tm7"/>les
+      <tm id="tm8"/>citrons.
+      <tm id="tm9"/>Ils
+      <tm id="tm10"/>sont
+      <tm id="tm11"/>mûrs
+      <tm id="tm12"/>et
+      <tm id="tm13"/>à
+      <tm id="tm14"/>90
+      <tm id="tm15"/>centimess
+      <tm id="tm16"/>la pièce.
+      <tm id="tm17"/>Combien
+      <tm id="tm18"/>
+      <tm id="tm19"/>en
+      <tm id="tm20"/>voulez
+      <tm id="tm21"/>vous
+      <tm id="tm22"/>?
+      
+    </speech>
+  </bml>
+  <fml>
+    <deictic end="s1:tm11" id="1" importance ="1.0" start="s1:tm2" type="onmyleft"/>
+    <performative end="s1:tm22" id="3"  start="s1:tm19" type="restpose_neutral"/>
+  </fml>
+</fml-apml>

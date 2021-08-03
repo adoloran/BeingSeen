@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<fml-apml>
+  <bml>
+    <speech id="s1" language="french" start="0.0" text="" type="SAPI4" voice="marytts">
+      <description level="1" type="gretabml">
+        <reference>tmp/from-fml-apml.pho</reference>
+      </description>
+      <tm id="tm1"/>Je
+      <tm id="tm2"/>vois
+      <tm id="tm3"/>que
+      <tm id="tm4"/>vous
+      <tm id="tm5"/>avez
+      <tm id="tm6"/>choisi
+      <tm id="tm7"/>les
+      <tm id="tm8"/>champignons
+      <tm id="tm9"/>blancs.
+      <tm id="tm10"/>Ils
+      <tm id="tm11"/>sont
+      <tm id="tm12"/>locaux
+      <tm id="tm13"/>et
+      <tm id="tm14"/>à
+      <tm id="tm15"/>1 euros
+      <tm id="tm16"/>80
+      <tm id="tm17"/>le
+      <tm id="tm18"/>kilo.
+      <tm id="tm19"/>Combien
+      <tm id="tm20"/>en
+      <tm id="tm21"/>avez
+      <tm id="tm22"/>vous
+      <tm id="tm23"/>besoin
+      <tm id="tm24"/>?
+
+    </speech>
+    I see that you have chosen the white mushrooms. They are local and at 1.80 euros per kilo. How many do you need?
+  </bml>
+  <fml>
+    <deictic end="s1:tm9" id="1" importance ="1.0" start="s1:tm2" type="onmy_down_right_bis"/>
+    <performative end="s1:tm24" id="3"  start="s1:tm21" type="restpose_neutral"/>
+  </fml>
+</fml-apml>

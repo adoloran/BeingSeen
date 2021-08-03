@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<fml-apml>
+  <bml>
+    <speech id="s1" language="french" start="0.0" text="" type="SAPI4" voice="marytts">
+      <description level="1" type="gretabml">
+        <reference>tmp/from-fml-apml.pho</reference>
+      </description>
+      <tm id="tm1"/>Vous
+      <tm id="tm2"/>optez
+      <tm id="tm3"/>pour de
+      <tm id="tm4"/>l'ail.
+      <tm id="tm5"/>Ils
+      <tm id="tm6"/>sont
+      <tm id="tm7"/>à
+      <tm id="tm8"/>2
+      <tm id="tm9"/>euros
+      <tm id="tm10"/>93
+      <tm id="tm11"/>centimess
+      <tm id="tm12"/>le
+      <tm id="tm13"/>kilogramme.
+      <tm id="tm14"/>Ce
+      <tm id="tm15"/>sont
+      <tm id="tm16"/>produits
+      <tm id="tm17"/>biologiques.
+      <tm id="tm18"/>Combien
+      <tm id="tm19"/>en
+      <tm id="tm20"/>voulez
+      <tm id="tm21"/>vous
+      <tm id="tm22"/>
+      <tm id="tm23"/>? 
+
+    </speech>
+  </bml>
+  <fml>
+    <deictic end="s1:tm13" id="1" importance ="1.0" start="s1:tm1" type="onmyleft_bis"/>
+    <performative end="s1:tm23+2" id="2"  start="s1:tm14" type="restpose_neutral"/>
+  </fml>
+</fml-apml>

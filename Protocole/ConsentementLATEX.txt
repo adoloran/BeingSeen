@@ -1,0 +1,34 @@
+\documentclass[a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{geometry} \geometry{hmargin=2.5cm,vmargin=1.5cm}
+
+\date{ }
+\title{Feuille de consentement}
+\author{PiROS GRETA}
+
+\begin{document}
+
+\maketitle
+Je soussigné.e (nom, prénom) .............................................................. déclare être majeur, avoir l'âge légal de consentement et accepter participer à cette étude organisée par l'Institut des Systèmes Intelligents et de Robotique (UMR 7222, CNRS) dans les conditions précisées si-dessous.
+\begin{itemize}
+    \item Ma participation est entièrement volontaire.
+    \item Je suis libre de me retirer de l'étude à tout moment sans avoir à me justifier. 
+    \item La participation à ce protocole n'est pas rémunérée. 
+    \item La publication des résultats de la recherche ne comportera aucun résultat individuel identifiant. 
+    \item Je dispose d'un droit d'opposition, de rectification, d'effacement et de limitation du traitement des données. \\ (voir, www.cnil.fr pour plus d'informations sur vos droits). 
+    \item J'ai été informé.e que je peux contacter à tout moment le responsable de l'étude si j'ai des questions concernant son déroulement et que les résultats de la recherche, si je le souhaite, pourront m'être communiqués.
+\end{itemize}
+Pour participer à cette étude, j'ai noté qu'il y aurait un enregistrement de données d'observation (vidéo et  questionnaires) et que ces données peuvent être montrées ou diffusées dans un cadre scientifique professionnel dans un délai de 5 ans après la publication de l'étude. 
+\begin{itemize}
+    \item[$\square$] Accepte librement de participer à cette étude
+    \item[$\square$] Accepte la collecte de données d'observation 
+\end{itemize} 
+\begin{tabular}{c|c}\\
+     \textbf{Participant} & \textbf{Expérimentateur} \\
+     Prénom et Nom .................................. & Prénom et Nom  .................................. \\
+     SIGNATURE & SIGNATURE \\
+     (faire précéder de la mention \guillemotleft Lu et approuvé\guillemotright) & (faire précéder de la mention \guillemotleft Lu et approuvé\guillemotright) 
+\end{tabular}
+\end{document}

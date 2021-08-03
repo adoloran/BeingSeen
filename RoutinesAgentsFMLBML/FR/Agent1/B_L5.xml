@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<fml-apml>
+  <bml>
+    <speech id="s1" language="french" start="0.0" text="" type="SAPI4" voice="marytts">
+      <description level="1" type="gretabml">
+        <reference>tmp/from-fml-apml.pho</reference>
+      </description>
+      <tm id="tm1"/>Ces
+      <tm id="tm2"/>melons
+      <tm id="tm3"/>sont
+      <tm id="tm4"/>très
+      <tm id="tm5"/>mûrs
+      <tm id="tm6"/>et
+      <tm id="tm7"/>de saison.
+      <tm id="tm8"/>C'est
+      <tm id="tm9"/>à
+      <tm id="tm10"/>1
+      <tm id="tm11"/>euro
+      <tm id="tm12"/>30
+      <tm id="tm13"/>la
+      <tm id="tm14"/>pièce.
+      <tm id="tm15"/>C'est
+      <tm id="tm16"/>peu
+      <tm id="tm17"/>cher.
+      <tm id="tm18"/>En voulez
+      <tm id="tm19"/>vous
+      <tm id="tm20"/>1,
+      <tm id="tm21"/>ou 2
+      <tm id="tm22"/>?
+      
+    </speech>
+  </bml>
+  <fml>
+    <deictic end="s1:tm12" id="1" importance ="1.0" start="s1:tm1" type="onmy_down_left"/>
+    <emotion end="s1:tm17" id="2" importance="1.0" start="s1:tm13" type="small_joy"/>
+    <performative end="s1:tm22+2" id="3"  start="s1:tm20" type="restpose_neutral"/>
+    <emotion end="s1:tm22+2" id="2" importance="1.0" start="s1:tm22" type="small_joy"/>
+  </fml>
+</fml-apml>
